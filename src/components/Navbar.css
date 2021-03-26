@@ -1,0 +1,14 @@
+.navbar {
+  grid-area: n;
+  background-color: #994572;
+}
+
+.nav .item {
+  color: #fff;
+}
+
+.link {
+  display: block;
+  margin: 10px;
+  color: #fff;
+}
