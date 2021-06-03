@@ -8,6 +8,7 @@ import {BrowserRouter} from 'react-router-dom';
 
 const App = (props) => {
   return (<BrowserRouter>
+    <Provider store = {store}>
     <div className="app-wrapper">
       <Header />
       <Navbar />
@@ -17,6 +18,7 @@ const App = (props) => {
       </div>
       <Footer />
     </div>
+    </Provider>
     </BrowserRouter>
   );
 }
