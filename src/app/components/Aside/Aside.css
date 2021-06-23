@@ -1,0 +1,55 @@
+.c_ads_list {
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+    border: 1px solid #ffd750;
+}
+
+.c_ads_list .header {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+.c_ads_list .header > i {
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    /* background: url("/img/menu-block-arrow-down.png") 0 0 no-repeat; */
+}
+
+.c_ads_list .ads_list {
+    margin-top: 10px;
+}
+
+.c_ads_list .list_item {
+    width: 205px;
+    margin: 0 auto 5px;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #a33235;
+}
+
+.c_ads_list .list_item a {
+    text-decoration: none;
+}
+
+.c_ads_list .list_item a:hover {
+    text-decoration: underline;
+}
+
+.c_ads_list .list_item .image,
+.c_ads_list .list_item .text {
+    text-align: center;
+}
+
+.c_ads_list .list_item .image {
+    margin: 7px 0 3px;
+}
+
+.c_ads_list .question_how_to {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.c_ads_list .question_how_to a {
+    color: #7a7a7a;
+    font-size: 11px;
+}

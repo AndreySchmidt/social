@@ -1,0 +1,48 @@
+.c_menu_block {
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border: 1px solid #e8e8e8;
+    background-color: #fdfdfd;
+}
+
+.c_menu_block .header {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+.c_menu_block .header > i {
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    /* background: url("http://localhost:3000/assets/menu-block-arrow-down.png") 0 0 no-repeat; */
+}
+
+.c_menu_block ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.c_menu_block ul a {
+    display: block;
+    padding: 5px 15px;
+    font-size: 12px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.c_menu_block ul a.active,
+.c_menu_block ul a:hover {
+    background-color: #f1f2f2;
+}
+
+.c_menu-orange-block {
+    float: right;
+    padding: 2px 5px;
+    margin-top: -2px;
+    margin-right: -8px;
+    color: #E01211;
+    background-color: #FDDA5B;
+    font-weight: bold;
+
+}
