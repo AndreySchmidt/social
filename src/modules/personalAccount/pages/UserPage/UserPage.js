@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import contentbg from './../../PageLayout/img/content-bg.jpg'
+
 import PageLayout from './../../PageLayout/PageLayout'
 
 import Footer from './../../PageLayout/components/Footer/Footer'
@@ -33,7 +35,7 @@ const UserPage = () => {
             <Status />
 
               <div className="interface_image">
-                <img src="resources/img/content-bg.jpg" alt=""/>
+                <img src={contentbg} alt="" />
               </div>
 
               <div className="c_main_content_wrapper">

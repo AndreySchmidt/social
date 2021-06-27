@@ -240,8 +240,9 @@
 .main_content_column .status_text {
     position: relative;
     padding-left: 8px;
-    padding-right: 140px;
+    padding-right: 0px;
     color: #727272;
+    width: 349px;
 }
 
 .main_content_column .change_status {

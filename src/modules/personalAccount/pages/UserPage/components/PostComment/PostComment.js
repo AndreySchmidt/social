@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import wallavatar2 from './../../../../PageLayout/images/wall-avatar-2.jpg'
+
 import PostCommentArea from './../PostCommentArea/PostCommentArea'
 
 const PostComment = ({whithUserData}) => {
@@ -8,7 +10,7 @@ const PostComment = ({whithUserData}) => {
     <div className="post_comment">
 
       {whithUserData &&
-        <Link className="user_avatar" to=""><img src="images/wall-avatar-2.jpg" alt=""/></Link>
+        <Link className="user_avatar" to=""><img src={wallavatar2} alt="" /></Link>
       }
 
       <div className="comment_form_wrapper">

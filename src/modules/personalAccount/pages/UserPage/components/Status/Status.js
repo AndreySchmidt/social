@@ -5,6 +5,7 @@ const Status = () => {
   return (
     <div className="status_text">
       Текст статуса!!!
+      &nbsp;&nbsp;
       <Link className="change_status" to="">изменить статус</Link>
 
       <div className="c_change_status_form">

@@ -10,7 +10,7 @@ const MenuBlock = () => {
         <ul>
           <li><Link className="active" to="">Моя страница</Link></li>
           <li><Link to="">Мои друзья</Link></li>
-          <li><Link to="">Сообщения</Link></li>
+          <li><Link to=""><span className="c_menu-orange-block">2</span>Сообщения</Link></li>
           <li><Link to="">Фото галерея</Link></li>
           <li><Link to="">Видео галерея</Link></li>
           <li><Link to="">Избранное</Link></li>

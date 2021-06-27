@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import nophoto from './../../../../PageLayout/images/no-photo.gif'
+
 import AsideLinks from './../AsideLinks/AsideLinks'
 import BirthdayList from './../BirthdayList/BirthdayList'
 import FriendsPhotoList from './../FriendsPhotoList/FriendsPhotoList'
@@ -13,7 +15,7 @@ const MainContentAside = () => {
   return (
     <div className="main_content_aside">
       <div className="avatar_image_container">
-        <img className="avatar_image" src="images/no-photo.gif" alt=""/>
+        <img className="avatar_image" src={nophoto} alt="" />
       </div>
       <AsideLinks />
 
