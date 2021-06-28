@@ -5,12 +5,12 @@ const MenuTop = () => {
   return(
     <div className="c_menu_top">
       <ul>
-        <li><Link to="">Организации</Link></li>
-        <li><Link to="">Недвижимость</Link></li>
-        <li><Link to="">Работа</Link></li>
-        <li><Link to="">Товары и услуги</Link></li>
-        <li><Link to="">Доска объявлений</Link></li>
-        <li><Link to="">Заявки на товары и услуги</Link></li>
+        <li><Link to="/organisations">Организации</Link></li>
+        <li><Link to="/real_estates_list">Недвижимость</Link></li>
+        <li><Link to="/vacancy_list">Работа</Link></li>
+        <li><Link to="/goods_service">Товары и услуги</Link></li>
+        <li><Link to="/advertisements">Доска объявлений</Link></li>
+        <li><Link to="/demands">Заявки на товары и услуги</Link></li>
       </ul>
     </div>
   )

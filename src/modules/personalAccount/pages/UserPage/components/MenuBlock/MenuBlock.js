@@ -8,18 +8,18 @@ const MenuBlock = () => {
         <div className="header">Мой профиль <i></i></div>
 
         <ul>
-          <li><Link className="active" to="">Моя страница</Link></li>
-          <li><Link to="">Мои друзья</Link></li>
-          <li><Link to=""><span className="c_menu-orange-block">2</span>Сообщения</Link></li>
-          <li><Link to="">Фото галерея</Link></li>
-          <li><Link to="">Видео галерея</Link></li>
-          <li><Link to="">Избранное</Link></li>
-          <li><Link to="">Купоны на скидку</Link></li>
-          <li><Link to="">Мероприятия</Link></li>
-          <li><Link to="">Документы</Link></li>
-          <li><Link to="">Мой блог</Link></li>
-          <li><Link to="">Настройки анкеты</Link></li>
-          <li><Link to=""><span className="c_menu-orange-block">20 000 dm</span> Мой счет</Link></li>
+          <li><Link className="active" to="/user/15/page">Моя страница</Link></li>
+          <li><Link to="/user/15/friend">Мои друзья</Link></li>
+          <li><Link to="/user/15/mess"><span className="c_menu-orange-block">2</span>Сообщения</Link></li>
+          <li><Link to="/user/15/photo">Фото галерея</Link></li>
+          <li><Link to="/user/15/video">Видео галерея</Link></li>
+          <li><Link to="/user/15/favorite">Избранное</Link></li>
+          <li><Link to="/user/15/coupon">Купоны на скидку</Link></li>
+          <li><Link to="/user/15/event">Мероприятия</Link></li>
+          <li><Link to="/user/15/doc">Документы</Link></li>
+          <li><Link to="/user/15/blog">Мой блог</Link></li>
+          <li><Link to="/user/15/profile_settings">Настройки анкеты</Link></li>
+          <li><Link to="/user/15/money"><span className="c_menu-orange-block">20 000 dm</span> Мой счет</Link></li>
         </ul>
       </div>
 
@@ -27,11 +27,11 @@ const MenuBlock = () => {
         <div className="header">Сервисы <i></i></div>
 
         <ul>
-          <li><Link to="">Мой список</Link></li>
-          <li><Link to="">Корзина товаров / услуг</Link></li>
-          <li><Link to="">Книга контактов</Link></li>
-          <li><Link to="">Планировщик</Link></li>
-          <li><Link to="">Калькулятор расходов</Link></li>
+          <li><Link to="/user/15/my_list">Мой список</Link></li>
+          <li><Link to="/user/15/cart">Корзина товаров / услуг</Link></li>
+          <li><Link to="/user/15/book">Книга контактов</Link></li>
+          <li><Link to="/user/15/plan">Планировщик</Link></li>
+          <li><Link to="user/15/calculator">Калькулятор расходов</Link></li>
         </ul>
       </div>
 
@@ -39,12 +39,12 @@ const MenuBlock = () => {
         <div className="header">Управление <i></i></div>
 
         <ul>
-          <li><Link to="">Мои компании</Link></li>
-          <li><Link to="">Мои объявления</Link></li>
-          <li><Link to="">Заявки на товары / услуги</Link></li>
-          <li><Link to="">Участие в консультациях</Link></li>
-          <li><Link to="">Мои отзывы</Link></li>
-          <li><Link to="">Мои комментарии</Link></li>
+          <li><Link to="/user/15/company">Мои компании</Link></li>
+          <li><Link to="/user/15/notice">Мои объявления</Link></li>
+          <li><Link to="/user/15/demand">Заявки на товары / услуги</Link></li>
+          <li><Link to="/user/15/consultation">Участие в консультациях</Link></li>
+          <li><Link to="/user/15/response">Мои отзывы</Link></li>
+          <li><Link to="/user/15/comment">Мои комментарии</Link></li>
         </ul>
       </div>
     </>
