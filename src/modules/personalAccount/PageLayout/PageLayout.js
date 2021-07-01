@@ -1,22 +1,25 @@
 import React from 'react'
-import './css/normalize.css'
-import './css/buttons-forms.css'
-import './css/page.css'
+// import './css/normalize.css'
+// import './css/buttons-forms.css'
+// import './css/page.css'
 import './css/lk_page.css'
+import AppPageLayout from './../../app/AppPageLayout/AppPageLayout'
 
-import JumpToTopBtn from './components/JumpToTopBtn/JumpToTopBtn'
-import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import Sidebar from './../pages/UserPage/components/Sidebar/Sidebar'
 
 const PageLayout = ({ children }) => (
-  <>
-    <JumpToTopBtn />
-    <Header />
-    <div className="back_ad_wrapper">{children}</div>
-  </>
+  <AppPageLayout>
+    <div className="main_content_wrapper">
+      <div className="container clearfix">
+        <Sidebar />
+        {children}
+      </div>
+      <Footer />
+      <div className="trasparent-stripe-left"></div>
+      <div className="trasparent-stripe-right"></div>
+    </div>
+  </AppPageLayout>
 )
-
-// PageLayout.propTypes = {
-//   children: PropTypes.element.isRequired,
-// }
 
 export default PageLayout
