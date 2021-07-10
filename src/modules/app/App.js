@@ -7,6 +7,11 @@ import DocPage from './../personalAccount/pages/DocPage/DocPage'
 import MyCommentsPage from './../personalAccount/pages/MyCommentsPage/MyCommentsPage'
 import MyEventPage from './../personalAccount/pages/MyEventPage/MyEventPage'
 import MyListPage from './../personalAccount/pages/MyListPage/MyListPage'
+import MyBlogListPage from './../personalAccount/pages/MyBlogListPage/MyBlogListPage'
+import FavoritePage from './../personalAccount/pages/FavoritePage/FavoritePage'
+import MyConsultationListPage from './../personalAccount/pages/MyConsultationListPage/MyConsultationListPage'
+import MessPage from './../personalAccount/pages/MessPage/MessPage'
+import ResponsePage from './../personalAccount/pages/ResponsePage/ResponsePage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -14,11 +19,18 @@ const App = (props) => {
   return (
     <Switch>
       <Route exact path='/' component={HomePage} />
+
+      <Route path='/user/:id(\d+)/response' component={ResponsePage} />
+      <Route path='/user/:id(\d+)/mess' component={MessPage} />
+      <Route path='/user/:id(\d+)/consultation' component={MyConsultationListPage} />
+      <Route path='/user/:id(\d+)/favorite' component={FavoritePage} />
+      <Route path='/user/:id(\d+)/blog' component={MyBlogListPage} />
       <Route path='/user/:id(\d+)/my_list' component={MyListPage} />
       <Route path='/user/:id(\d+)/event' component={MyEventPage} />
       <Route path='/user/:id(\d+)/comment' component={MyCommentsPage} />
       <Route path='/user/:id(\d+)/doc' component={DocPage} />
       <Route path='/user/:id(\d+)' component={UserPage} />
+
       <Route component={Page404} />
     </Switch>
   )

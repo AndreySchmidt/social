@@ -1,0 +1,136 @@
+/*c_lk_otziv_list*/
+
+.c_lk_otziv_list {
+	min-height: 1245px;
+	margin: 10px 0 10px;
+	padding: 6px 10px 11px;
+	border: 1px solid #EAEAEA;
+}
+
+.c_lk_otziv_list .blue {
+	color: #009ACF;
+}
+
+
+
+.c_lk_otziv_list .comment-target {
+	padding: 4px 10px 13px;
+	margin: 0 0 25px;
+	position: relative;
+	border: 1px solid #eaeaea;
+}
+
+.c_lk_otziv_list .comment-target .comment-corner {
+	width: 35px;
+	height: 24px;
+	overflow: hidden;
+	bottom: -24px;
+	left: 80px;
+	position: absolute;
+	background: url("./../../PageLayout/img/comment-corner.gif") 50% 100% no-repeat;
+}
+
+
+
+.c_lk_otziv_list .comment {
+    margin: 0 0 8px;
+    padding: 6px 10px 7px;
+    position: relative;
+	background: #f9f9f9;
+}
+
+.c_lk_otziv_list img {
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+.c_lk_otziv_list .name {
+    color: #009ACF;
+}
+
+.c_lk_otziv_list .date {
+    color: #969494;
+    font-size: 11px;
+    margin: 0 5px;
+}
+
+.c_lk_otziv_list .text {
+    color: #535353;
+    line-height: 1.2em;
+    margin: 6px 0 0px 58px;
+}
+
+
+
+.comment-target .title {
+    color: #009ACF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.goods .title {
+	margin-top: 6px;
+}
+
+.comment-target .contacts_section {
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+
+.comment-target .contacts_section a,
+.comment-target .contacts_section .phone {
+    color: #3c3c3c;
+    text-overflow: ellipsis;
+    padding-left: 20px;
+    margin-right: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: none 0 50% no-repeat;
+}
+
+.comment-target .contacts_section .phone {
+    padding-left: 14px;
+    background-image: url("./../../PageLayout/img/icon-phone.png");
+}
+
+.comment-target .contacts_section .mail {
+    background-image: url("./../../PageLayout/img/icon-mail.png");
+}
+
+.comment-target .contacts_section .site {
+    background-image: url("./../../PageLayout/img/icon-web.png");
+}
+
+.comment-target .bottom_link {
+    margin-top: 4px;
+}
+
+.comment-target .bottom_link a {
+    margin-right: 6px;
+}
+
+.comment-target .title a,
+.comment-target .bottom_link a {
+    text-decoration: none;
+}
+
+.comment-target .title a:hover,
+.comment-target .bottom_link a:hover {
+    text-decoration: underline;
+}
+
+
+
+.comment-target .price {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 16px 0 7px;
+}
+
+.comment-target .price strong {
+    margin: 0 7px;
+    padding: 3px 20px;
+    background-color: #FFDA5F;
+}

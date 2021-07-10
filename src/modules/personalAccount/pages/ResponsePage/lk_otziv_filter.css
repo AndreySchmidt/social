@@ -1,0 +1,16 @@
+/*c_lk_otziv_filter*/
+
+.c_lk_otziv_filter .c_quick_search {
+    margin: 5px 0 10px;
+}
+
+.c_lk_otziv_filter .c_type_select {
+    margin-left: -5px;
+    background: none;
+}
+
+.c_lk_otziv_filter .c_type_select a {
+	text-align: center;
+	min-width: 55px;
+	margin: 0 5px;
+}
