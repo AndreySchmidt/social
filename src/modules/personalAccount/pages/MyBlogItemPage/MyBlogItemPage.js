@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import blog_files57 from './../../../app/AppPageLayout/images/57.jpg'
+
 import PageLayout from './../../PageLayout/PageLayout'
 
 const MyBlogItemPage = () => {
@@ -47,7 +49,7 @@ const MyBlogItemPage = () => {
                     </ol>
 
                     <div className="align-center">
-                      <img src="blog_files/57.jpg" alt="image max width 470px" />
+                      <img src={blog_files57} alt="image max width 470px" />
                     </div>
 
                   </div>

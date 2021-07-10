@@ -5,6 +5,7 @@ import wallavatar1 from './../../../app/AppPageLayout/images/wall-avatar-1.jpg'
 
 import PageLayout from './../../PageLayout/PageLayout'
 import Pagination from './../../components/Pagination/Pagination'
+import QuickSearch from './../../components/QuickSearch/QuickSearch'
 
 import './lk_otziv_filter.css'
 import './lk_otziv_list.css'
@@ -21,24 +22,13 @@ const ResponsePage = () => {
         <div className="c_lk_otziv_list">
 
             <div className="c_lk_otziv_filter">
-                <div className="c_type_select">
-                    <Link to="#" className="active">Все</Link>
-                    <Link to="#">Организации</Link>
-                    <Link to="#">Товары / услуги</Link>
-                </div>
-
-                <div className="c_quick_search clearfix">
-                <form action="#" method="GET">
-                    <div className="search_form">
-                        <input className="search_query" type="text" placeholder="Быстрый поиск" />
-                        <input className="search_reset" type="reset" title="Очистить" value="Очистить" />
-                        <input className="search_submit hidden" type="submit" value="Найти" />
-                    </div>
-                </form>
-                </div>
+              <div className="c_type_select">
+                <Link to="#" className="active">Все</Link>
+                <Link to="#">Организации</Link>
+                <Link to="#">Товары / услуги</Link>
+              </div>
+              <QuickSearch placeholder="Быстрый поиск" />
             </div>
-
-
 
             <div className="comment-target">
 

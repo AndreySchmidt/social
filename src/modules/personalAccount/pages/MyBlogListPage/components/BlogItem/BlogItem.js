@@ -7,7 +7,7 @@ const BlogItem = () => {
   return (
     <div className="list_item clearfix">
 
-      <h4 className="title"><Link to="#">Как создать самый лучший в мире сайт (часть 1).</Link></h4>
+      <h4 className="title"><Link to="/user/1/blog_item">Как создать самый лучший в мире сайт (часть 1).</Link></h4>
       <p className="text">Скидка на все меню, кроме табачных изделий, сока и водки. Не действует на другие спецпредложения, не суммируется с другими скидками...</p>
 
       <span className="date">10.10.2014</span>

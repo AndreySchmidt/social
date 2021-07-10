@@ -33,7 +33,7 @@ const UserPage = () => {
           </div>
 
           <div className="c_main_content_wrapper">
-            <div className="title"><span>Анкета</span> <Link to="">редактировать</Link></div>
+            <div className="title"><span>Анкета</span> <Link to="/user/15/edit_profile">редактировать</Link></div>
             <ProfileOptionsList />
             <div className="show_full_data">
               <Link to=""><i></i>Показать анкету полностью<i></i></Link>
