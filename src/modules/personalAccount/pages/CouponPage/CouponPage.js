@@ -42,7 +42,7 @@ const FriendPage = () => {
                     <QuickSearch placeholder="Быстрый поиск" />
                     <div className="discount_item clearfix">
 
-                        <h4 className="title"><Link to="#">Скидка 20% в кафе Svetlo!</Link></h4>
+                        <h4 className="title"><Link to="/user/15/coupon_item">Скидка 20% в кафе Svetlo!</Link></h4>
                         <div className="right_block">
                             <Link className="c_print_this" to="#">Распечатать</Link>
                         </div>
@@ -60,7 +60,7 @@ const FriendPage = () => {
 
                     <div className="discount_item clearfix">
 
-                        <h4 className="title"><Link to="#">Скидка 20% в кафе Svetlo!</Link></h4>
+                        <h4 className="title"><Link to="/user/15/coupon_item">Скидка 20% в кафе Svetlo!</Link></h4>
                         <div className="right_block">
                             <Link className="c_print_this" to="#">Распечатать</Link>
                         </div>
@@ -78,7 +78,7 @@ const FriendPage = () => {
 
                     <div className="discount_item clearfix">
 
-                        <h4 className="title"><Link to="#">Скидка 20% в кафе Svetlo!</Link></h4>
+                        <h4 className="title"><Link to="/user/15/coupon_item">Скидка 20% в кафе Svetlo!</Link></h4>
                         <div className="right_block">
                             <Link className="c_print_this" to="#">Распечатать</Link>
                         </div>

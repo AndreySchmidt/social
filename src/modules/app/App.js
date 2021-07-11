@@ -17,6 +17,9 @@ import EditProfilePage from './../personalAccount/pages/EditProfilePage/EditProf
 import DemandPage from './../personalAccount/pages/DemandPage/DemandPage'
 import FriendPage from './../personalAccount/pages/FriendPage/FriendPage'
 import CouponPage from './../personalAccount/pages/CouponPage/CouponPage'
+import CouponItemPage from './../personalAccount/pages/CouponItemPage/CouponItemPage'
+import PhotoPage from './../personalAccount/pages/PhotoPage/PhotoPage'
+import EditPhotoPage from './../personalAccount/pages/EditPhotoPage/EditPhotoPage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -25,6 +28,9 @@ const App = (props) => {
     <Switch>
       <Route exact path='/' component={HomePage} />
 
+      <Route path='/user/:id(\d+)/photo_edit' component={EditPhotoPage} />
+      <Route path='/user/:id(\d+)/photo' component={PhotoPage} />
+      <Route path='/user/:id(\d+)/coupon_item' component={CouponItemPage} />
       <Route path='/user/:id(\d+)/coupon' component={CouponPage} />
       <Route path='/user/:id(\d+)/friend' component={FriendPage} />
       <Route path='/user/:id(\d+)/demand' component={DemandPage} />

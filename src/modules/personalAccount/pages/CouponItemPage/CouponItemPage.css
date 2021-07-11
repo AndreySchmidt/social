@@ -1,0 +1,104 @@
+/* c_lk_discount_page */
+
+.c_lk_discount_page {
+	margin: 0;
+}
+
+.c_lk_discount_page h2.title {
+    float: right;
+    color: #009ACF;
+    font-size: 14px;
+    margin: 3px 0 5px;
+    padding: 0;
+}
+
+.c_lk_discount_page h3.title {
+	color: #009ACF;
+	margin: 0 0 5px;
+	padding: 0;
+}
+
+.c_lk_discount_page .desciption {
+	color: #545454;
+	margin: 5px 0 1em;
+}
+
+.c_lk_discount_page .end-date {
+	margin-bottom: 17px;
+}
+
+.c_lk_discount_page .right_block {
+    float: right;
+    /*text-align: center;*/
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+.c_lk_discount_page .right_block strong {
+	display: block;
+	color: #ab0505;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	margin: 4px 0;
+}
+
+.c_lk_discount_page .button_element {
+	display: block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 34px;
+    height: 30px;
+    padding: 8px 10px;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D5BC60 #CBAF42 #D5B544;
+    background: #FFD124 url("../../../app/AppPageLayout/img/button-bg.jpg") 0 0 repeat-x;
+    border-radius: 2px;
+    border-image: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+}
+
+.c_lk_discount_page .organizator_profile {
+	clear: right;
+    margin: 20px 0 13px;
+	padding: 6px 8px 8px 75px;
+	border: 1px solid #b8b8b8;
+}
+
+.c_lk_discount_page .organizator_profile .label {
+    float: left;
+    margin-left: -65px;
+}
+
+.c_lk_discount_page .organizator_profile br {
+    margin: 0 0 6px;
+}
+
+/*
+.c_lk_discount_page .breadcrumbs {
+    display: block;
+    margin: 6px 0 0;
+}*/
+
+.c_lk_discount_page .breadcrumbs a {
+    white-space: nowrap;
+}
+
+.c_lk_discount_page .breadcrumbs .separator {
+    display: inline-block;
+    text-indent: -10em;
+    margin: 0 2px;
+    width: 9px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../../../app/AppPageLayout/img/category-separator.gif) 0 50% no-repeat;
+}
