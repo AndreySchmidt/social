@@ -28,8 +28,8 @@ const MenuBlock = () => {
           <li><Link to="/user/15/my_list">Мой список</Link></li>
           <li><Link to="/user/15/cart"><span className="c_menu-orange-block">-</span>Корзина товаров / услуг</Link></li>
           <li><Link to="/user/15/book"><span className="c_menu-orange-block">-</span>Книга контактов</Link></li>
-          <li><Link to="/user/15/plan"><span className="c_menu-orange-block">-</span>Планировщик</Link></li>
-          <li><Link to="user/15/calculator"><span className="c_menu-orange-block">-</span>Калькулятор расходов</Link></li>
+          <li><Link to="/user/15/plan">Планировщик</Link></li>
+          <li><Link to="/user/15/calculator"><span className="c_menu-orange-block">-</span>Калькулятор расходов</Link></li>
         </ul>
       </div>
 

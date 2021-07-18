@@ -20,6 +20,9 @@ import CouponPage from './../personalAccount/pages/CouponPage/CouponPage'
 import CouponItemPage from './../personalAccount/pages/CouponItemPage/CouponItemPage'
 import PhotoPage from './../personalAccount/pages/PhotoPage/PhotoPage'
 import EditPhotoPage from './../personalAccount/pages/EditPhotoPage/EditPhotoPage'
+import CalcListPage from './../personalAccount/pages/CalcListPage/CalcListPage'
+import CalcItemPage from './../personalAccount/pages/CalcItemPage/CalcItemPage'
+import PlanPage from './../personalAccount/pages/PlanPage/PlanPage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -28,6 +31,9 @@ const App = (props) => {
     <Switch>
       <Route exact path='/' component={HomePage} />
 
+      <Route path='/user/:id(\d+)/plan' component={PlanPage} />
+      <Route path='/user/:id(\d+)/calculator_item' component={CalcItemPage} />
+      <Route path='/user/:id(\d+)/calculator' component={CalcListPage} />
       <Route path='/user/:id(\d+)/photo_edit' component={EditPhotoPage} />
       <Route path='/user/:id(\d+)/photo' component={PhotoPage} />
       <Route path='/user/:id(\d+)/coupon_item' component={CouponItemPage} />
