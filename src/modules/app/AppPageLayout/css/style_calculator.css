@@ -25,7 +25,7 @@
 .c_calculator_table {
     width: 100%;
     display: table;
-    behavior: url(resources/display-table.min.htc);
+    /* behavior: url(resources/display-table.min.htc); */
 }
 
 .c_calculator_table .row {
@@ -226,6 +226,3 @@
 }
 
 /*END form_line_calc_horiz*/
-
-
-

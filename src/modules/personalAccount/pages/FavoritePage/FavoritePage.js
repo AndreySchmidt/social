@@ -14,8 +14,6 @@ import './../../components/css/c_lk_friends_dock.css'
 const FavoritePage = () => {
   return (
     <PageLayout>
-    <div className="main_content">
-
       <div className="c_header_section_title">Избранное</div>
 
         <div className="c_settings_layout clearfix">
@@ -103,8 +101,7 @@ const FavoritePage = () => {
             </div>
           </div>
         </div>
-        <Pagination />
-    </div>
+      <Pagination />
     </PageLayout>
   )
 }

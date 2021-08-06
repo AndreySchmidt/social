@@ -7,12 +7,9 @@ const Wall = () => {
   return (
     <div className="c_wall">
       <PostComment />
-
-        <div className="wall_posts">
-
-          <WallPostsItem />
-
-        </div>
+      <div className="wall_posts">
+        <WallPostsItem />
+      </div>
     </div>
   )
 }

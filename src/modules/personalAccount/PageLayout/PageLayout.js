@@ -13,7 +13,9 @@ const PageLayout = ({ children }) => (
     <div className="main_content_wrapper">
       <div className="container clearfix">
         <Sidebar />
-        {children}
+        <div className="main_content">
+          {children}
+        </div>
       </div>
       <Footer />
       <div className="trasparent-stripe-left"></div>

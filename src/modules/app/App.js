@@ -23,6 +23,10 @@ import EditPhotoPage from './../personalAccount/pages/EditPhotoPage/EditPhotoPag
 import CalcListPage from './../personalAccount/pages/CalcListPage/CalcListPage'
 import CalcItemPage from './../personalAccount/pages/CalcItemPage/CalcItemPage'
 import PlanPage from './../personalAccount/pages/PlanPage/PlanPage'
+import CartPage from './../personalAccount/pages/CartPage/CartPage'
+import VideoPage from './../personalAccount/pages/VideoPage/VideoPage'
+import CompanyPage from './../personalAccount/pages/CompanyPage/CompanyPage'
+import AnnouncementPage from './../personalAccount/pages/AnnouncementPage/AnnouncementPage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -31,6 +35,10 @@ const App = (props) => {
     <Switch>
       <Route exact path='/' component={HomePage} />
 
+      <Route path='/user/:id(\d+)/announcement' component={AnnouncementPage} />
+      <Route path='/user/:id(\d+)/company' component={CompanyPage} />
+      <Route path='/user/:id(\d+)/video' component={VideoPage} />
+      <Route path='/user/:id(\d+)/cart' component={CartPage} />
       <Route path='/user/:id(\d+)/plan' component={PlanPage} />
       <Route path='/user/:id(\d+)/calculator_item' component={CalcItemPage} />
       <Route path='/user/:id(\d+)/calculator' component={CalcListPage} />

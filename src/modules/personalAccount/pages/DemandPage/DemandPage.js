@@ -13,8 +13,6 @@ import QuickSearch from './../../components/QuickSearch/QuickSearch'
 const DemandPage = () => {
   return (
     <PageLayout>
-    <div className="main_content">
-
       <div className="c_header_section_title">
         <Link className="c_button_large link_right" to="#">Добавить заявку</Link> Заявки на товары / услуги
       </div>
@@ -82,7 +80,6 @@ const DemandPage = () => {
 
       </div>
       <Pagination />
-    </div>
     </PageLayout>
   )
 }
