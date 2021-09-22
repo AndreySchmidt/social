@@ -37,6 +37,8 @@ import VacancyPage from './../employment/pages/VacancyPage/VacancyPage'
 import AddEmployeePage from './../employment/pages/AddEmployeePage/AddEmployeePage'
 import AddVacancyPage from './../employment/pages/AddVacancyPage/AddVacancyPage'
 
+import OrganisationListPage from './../organisation/pages/OrganisationListPage/OrganisationListPage'
+
 import { Switch, Route } from 'react-router-dom'
 
 const App = (props) => {
@@ -45,6 +47,8 @@ const App = (props) => {
       <Route exact path='/' component={HomePage} />
 
       <Route path='/test' component={TestComp} />
+
+      <Route path='/organisations' component={OrganisationListPage} />
 
       <Route path='/vacancy_add' component={AddVacancyPage} />
       <Route path='/employee_add' component={AddEmployeePage} />
