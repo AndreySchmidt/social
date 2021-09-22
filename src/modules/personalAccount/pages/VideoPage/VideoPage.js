@@ -9,7 +9,7 @@ import Pagination from './../../../app/components/Pagination/Pagination'
 
 import './VideoPage.css'
 import './../../../app/components/css/blog_search.css'
-import './../../components/css/c_breadcrumbs_bar.css'
+import './../../../app/components/css/breadcrumbs_bar.css'
 import './../../components/css/lk_user_data.css'
 
 const VideoPage = () => {

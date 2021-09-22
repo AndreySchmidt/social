@@ -3,6 +3,10 @@ import {Link} from 'react-router-dom'
 
 import PageLayout from './../../PageLayout/PageLayout'
 
+import './../../../app/components/css/blog_search.css'
+import './../../../app/components/css/breadcrumbs_bar.css'
+import './../../../app/components/css/ad_info_layout.css'
+
 const EmployeePage = () => {
   return (
     <PageLayout>
@@ -15,16 +19,16 @@ const EmployeePage = () => {
         </form>
         <div className="c_type_select">
           Тип обьявления:
-          <Link to="#">Вакансии</Link>
-          <Link to="#" className="active">Резюме</Link>
+          <Link to="/vacancy_list">Вакансии</Link>
+          <Link to="/employee_list" className="active">Резюме</Link>
         </div>
       </div>
       <div className="c_breadcrumbs_bar">
         <Link className="back" to="#">Назад</Link>
         <div className="breadcrumbs">
-          <Link to="#">Работа</Link>
+          <Link to="/vacancy_list">Работа</Link>
           <span className="separator">&gt;</span>
-          <Link to="#">Вакансии</Link>
+          <Link to="/employee_list">Резюме</Link>
         </div>
       </div>
       <div className="c_ad_header">
@@ -147,13 +151,13 @@ const EmployeePage = () => {
             <li className="lift"><Link to="">Поднять объявление в поиске</Link></li>
           </ul>
         </div>
-        <Link to=""><img src="4_files/banner-2.png" alt="" /></Link>
+        <Link to=""><img src="images/banner-2.png" alt="" /></Link>
       </div>
     </div>
 
     <div className="ad_options clearfix">
       <div className="social_links">
-        <img src="4_files/social-sample-small.png" alt="" />
+        <img src="img/social-sample-small.png" alt="" />
       </div>
       <Link className="add_to_list" to="">В мой список</Link>
       <Link className="report" to="">Пожаловаться</Link>
@@ -163,27 +167,27 @@ const EmployeePage = () => {
       <div className="title">Похожие объявления:</div>
       <div className="ad_list clearfix">
         <div className="list_item">
-          <div className="photo"><Link to=""><img src="4_files/similar-ad-photo.jpg" alt="" /></Link></div>
+          <div className="photo"><Link to=""><img src="images/similar-ad-photo.jpg" alt="" /></Link></div>
           <div className="description"><Link to="">ВАЗ 1.5 МТ, 2002, седан</Link></div>
           <div className="price">955 000 руб.</div>
         </div>
        <div className="list_item">
-          <div className="photo"><Link to=""><img src="4_files/similar-ad-photo.jpg" alt="" /></Link></div>
+          <div className="photo"><Link to=""><img src="images/similar-ad-photo.jpg" alt="" /></Link></div>
           <div className="description"><Link to="">ВАЗ 1.5 МТ, 2002, седан</Link></div>
           <div className="price">955 000 руб.</div>
         </div>
        <div className="list_item">
-          <div className="photo"><Link to=""><img src="4_files/similar-ad-photo.jpg" alt="" /></Link></div>
+          <div className="photo"><Link to=""><img src="images/similar-ad-photo.jpg" alt="" /></Link></div>
           <div className="description"><Link to="">ВАЗ 1.5 МТ, 2002, седан</Link></div>
           <div className="price">955 000 руб.</div>
         </div>
        <div className="list_item">
-          <div className="photo"><Link to=""><img src="4_files/similar-ad-photo.jpg" alt="" /></Link></div>
+          <div className="photo"><Link to=""><img src="images/similar-ad-photo.jpg" alt="" /></Link></div>
           <div className="description"><Link to="">ВАЗ 1.5 МТ, 2002, седан</Link></div>
           <div className="price">955 000 руб.</div>
         </div>
        <div className="list_item">
-          <div className="photo"><Link to=""><img src="4_files/similar-ad-photo.jpg" alt="" /></Link></div>
+          <div className="photo"><Link to=""><img src="images/similar-ad-photo.jpg" alt="" /></Link></div>
           <div className="description"><Link to="">ВАЗ 1.5 МТ, 2002, седан</Link></div>
           <div className="price">955 000 руб.</div>
         </div>

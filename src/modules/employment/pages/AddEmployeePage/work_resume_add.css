@@ -1,0 +1,132 @@
+/*c_work_resume_add*/
+
+.c_breadcrumbs_bar { /* redefine */
+    margin: 0 0 6px; 
+}
+
+.c_work_resume_add {
+    margin: 0 0 12px;
+    /*padding: 4px 12px 4px 10px;*/
+}
+
+.c_work_resume_add .header {
+    color: #009ACF;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 6px 10px;
+}
+
+.c_work_resume_add .fieldset {
+    margin: 0;
+    padding: 25px 68px 1em 10px;
+    border: 1px solid #EAEAEA;
+}
+
+.c_work_resume_add form .element-container {
+    clear: left;
+    padding-left: 290px;
+    margin: 0 0 7px;
+}
+
+.c_work_resume_add .element-container label {
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    width: 284px;
+    margin-left: -290px;
+    padding: 3px 0 0;
+}
+
+
+
+.c_work_resume_add .element-container .type-text {
+    line-height: 14px;
+    height: 14px;
+    width: 295px; /* 305px */
+    padding: 5px 5px 2px;
+    border: 1px solid #DDDDDD;
+}
+
+.c_work_resume_add .element-container textarea.type-text {
+    line-height: 14px;
+    height: 14px;
+    width: 300px; /* 305px */
+    height: 91px;
+    max-width: 330px;
+    padding: 5px 0 0 5px;
+    margin: 0 0 0px;
+    border: 1px solid #DDDDDD;
+}
+
+.c_work_resume_add .element-container select {
+    /*display: block;*/
+    height: 21px;
+    line-height: 21px;
+    width: 307px; /* 305px */
+    vertical-align: top;
+    outline: 0 none;
+    border: 1px solid #D1D1D1;
+}
+
+.c_work_resume_add .element-container select option {
+    padding: 5px 5px 2px;
+    vertical-align: middle;
+}
+
+
+.c_work_resume_add .element-container .width-half {
+    width: 136px;
+    margin-right: 8px; 
+}
+
+.c_work_resume_add .element-container .width-third {
+    width: 84px;
+    margin-right: 6px; 
+}
+
+.c_work_resume_add .element-container select.width-half {
+    width: 148px;
+}
+
+.c_work_resume_add .element-container select.width-third {
+    width: 96px;
+}
+
+.c_work_resume_add .element-container .select-init {
+    float: left;
+    line-height: 14px;
+    padding: 4px 0px 2px;
+}
+
+.c_work_resume_add .element-container .select-result {
+    clear: left;
+    margin: 0 0 10px;
+}
+
+.c_work_resume_add .element-container label.normal {
+    float: none;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+.c_work_resume_add .element-container label.normal input {
+    margin: 3px 0 0;
+}
+
+
+.c_work_resume_add .lang-add {
+    font-size: 14px;
+    margin: 3px 0 0; 
+}
+
+.c_work_resume_add .add-fieldset {
+    clear: left;
+    font-size: 14px;
+    padding: 4px 0 0 290px;
+    margin: 0 -58px 0px 0;
+    border-top: 1px dotted #aaa;
+}

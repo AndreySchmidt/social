@@ -33,6 +33,9 @@ import TestComp from './../personalAccount/pages/TestComp/TestComp'
 import VacancyListPage from './../employment/pages/VacancyListPage/VacancyListPage'
 import EmployeeListPage from './../employment/pages/EmployeeListPage/EmployeeListPage'
 import EmployeePage from './../employment/pages/EmployeePage/EmployeePage'
+import VacancyPage from './../employment/pages/VacancyPage/VacancyPage'
+import AddEmployeePage from './../employment/pages/AddEmployeePage/AddEmployeePage'
+import AddVacancyPage from './../employment/pages/AddVacancyPage/AddVacancyPage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -43,6 +46,9 @@ const App = (props) => {
 
       <Route path='/test' component={TestComp} />
 
+      <Route path='/vacancy_add' component={AddVacancyPage} />
+      <Route path='/employee_add' component={AddEmployeePage} />
+      <Route path='/vacancy' component={VacancyPage} />
       <Route path='/employee' component={EmployeePage} />
       <Route path='/employee_list' component={EmployeeListPage} />
       <Route path='/vacancy_list' component={VacancyListPage} />
