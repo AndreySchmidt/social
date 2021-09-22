@@ -6,7 +6,7 @@ import catalog from './../../../app/AppPageLayout/images/catalog.jpg'
 import eventpic from './../../../app/AppPageLayout/images/event-pic.jpg'
 
 import PageLayout from './../../PageLayout/PageLayout'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 
 import './MyListPage.css'
 import './lk_my_list_remark.css'

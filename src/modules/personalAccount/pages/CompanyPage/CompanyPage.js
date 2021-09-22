@@ -7,7 +7,7 @@ import PageLayout from './../../PageLayout/PageLayout'
 
 import './company_control_bar.css'
 import './../../components/css/lk_user_data.css'
-import './../../components/css/ad_list_page.css'
+import './../../../app/components/css/ad_list_page.css'
 
 const CompanyPage = () => {
   return (

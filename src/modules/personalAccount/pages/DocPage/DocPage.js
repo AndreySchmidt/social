@@ -5,10 +5,10 @@ import PageLayout from './../../PageLayout/PageLayout'
 
 import './DocPage.css'
 import './../../components/css/lk_user_data.css'
-import './../../components/css/ad_list_page.css'
+import './../../../app/components/css/ad_list_page.css'
 
 import QuickSearch from './../../components/QuickSearch/QuickSearch'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 
 const DocPage = () => {
   return (

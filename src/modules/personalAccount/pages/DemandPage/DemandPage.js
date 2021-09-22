@@ -7,7 +7,7 @@ import './../../components/css/c_bid_filter.css'
 import './../../components/css/lk_user_data.css'
 
 import PageLayout from './../../PageLayout/PageLayout'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 import QuickSearch from './../../components/QuickSearch/QuickSearch'
 
 const DemandPage = () => {

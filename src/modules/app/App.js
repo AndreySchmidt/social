@@ -27,7 +27,12 @@ import CartPage from './../personalAccount/pages/CartPage/CartPage'
 import VideoPage from './../personalAccount/pages/VideoPage/VideoPage'
 import CompanyPage from './../personalAccount/pages/CompanyPage/CompanyPage'
 import AnnouncementPage from './../personalAccount/pages/AnnouncementPage/AnnouncementPage'
+
 import TestComp from './../personalAccount/pages/TestComp/TestComp'
+
+import VacancyListPage from './../employment/pages/VacancyListPage/VacancyListPage'
+import EmployeeListPage from './../employment/pages/EmployeeListPage/EmployeeListPage'
+import EmployeePage from './../employment/pages/EmployeePage/EmployeePage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -37,6 +42,10 @@ const App = (props) => {
       <Route exact path='/' component={HomePage} />
 
       <Route path='/test' component={TestComp} />
+
+      <Route path='/employee' component={EmployeePage} />
+      <Route path='/employee_list' component={EmployeeListPage} />
+      <Route path='/vacancy_list' component={VacancyListPage} />
       <Route path='/user/:id(\d+)/announcement' component={AnnouncementPage} />
       <Route path='/user/:id(\d+)/company' component={CompanyPage} />
       <Route path='/user/:id(\d+)/video' component={VideoPage} />

@@ -4,11 +4,11 @@ import {Link} from 'react-router-dom'
 import videothumb from './../../../app/AppPageLayout/images/video-thumb.jpg'
 
 import PageLayout from './../../PageLayout/PageLayout'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 // import QuickSearch from './../../components/QuickSearch/QuickSearch'// <QuickSearch placeholder="Поиск по видеофайлам" />
 
 import './VideoPage.css'
-import './../../components/css/c_blog_search.css'
+import './../../../app/components/css/blog_search.css'
 import './../../components/css/c_breadcrumbs_bar.css'
 import './../../components/css/lk_user_data.css'
 

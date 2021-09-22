@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import wallavatar1 from './../../../app/AppPageLayout/images/wall-avatar-1.jpg'
 
 import PageLayout from './../../PageLayout/PageLayout'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 import QuickSearch from './../../components/QuickSearch/QuickSearch'
 
 import './lk_otziv_filter.css'

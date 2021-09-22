@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 import PageLayout from './../../PageLayout/PageLayout'
 import QuickSearch from './../../components/QuickSearch/QuickSearch'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 
 import './../../components/css/lk_user_data.css'
 

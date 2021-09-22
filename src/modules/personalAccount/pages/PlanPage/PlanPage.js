@@ -5,7 +5,7 @@ import arrowblackleft from './../../../app/AppPageLayout/img/arrow-black-left.pn
 import arrowblackright from './../../../app/AppPageLayout/img/arrow-black-right.png'
 
 import PageLayout from './../../PageLayout/PageLayout'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 import QuickSearch from './../../components/QuickSearch/QuickSearch'
 
 import './PlanPage.css'

@@ -126,11 +126,13 @@
     width: 9px;
     height: 9px;
     vertical-align: middle;
-    /* background: url("../../../app/AppPageLayout/img/show-more-arrow-up.png") 0 0 no-repeat; */
+    background: url("./../../AppPageLayout/img/arrow-double-up.png") 0 0 no-repeat;
+    /* background: url("./../../AppPageLayout/img/show-more-arrow-up.png") 0 0 no-repeat; */
 }
 
 .c_ad_search_section .full_data.show_full a > i {
-    /* background: url("../../../app/AppPageLayout/img/show-more-arrow.png") 0 0 no-repeat; */
+    background: url("./../../AppPageLayout/img/arrow-double-down.png") 0 0 no-repeat;
+    /* background: url("./../../AppPageLayout/img/show-more-arrow.png") 0 0 no-repeat; */
 }
 
 .c_ad_search_section .search_input_with_button {

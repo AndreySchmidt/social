@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import ava53x53 from './../../../app/AppPageLayout/images/ava-53x53.jpg'
 
 import PageLayout from './../../PageLayout/PageLayout'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 
 import './MyConsultationListPage.css'
 import './lk_consultation_filter.css'

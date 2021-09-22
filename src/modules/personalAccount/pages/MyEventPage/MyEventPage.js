@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom'
 
 import PageLayout from './../../PageLayout/PageLayout'
 import EventInvites from './components/EventInvites/EventInvites'
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 
 // import './MyEventPage.css'
 import './../../components/css/lk_user_data.css'
-import './../../components/css/c_list_extended_view.css'
+import './../../../app/components/css/list_extended_view.css'
 
 const MyEventPage = () => {
   return (

@@ -5,13 +5,13 @@ import pic1 from './../../../app/AppPageLayout/images/pic-1.jpg'
 
 import PageLayout from './../../PageLayout/PageLayout'
 
-import Pagination from './../../components/Pagination/Pagination'
+import Pagination from './../../../app/components/Pagination/Pagination'
 import QuickSearch from './../../components/QuickSearch/QuickSearch'
 
 import './AnnouncementPage.css'
 import './announcement_controls.css'
 import './../../components/css/lk_user_data.css'
-import './../../components/css/ad_list_page.css'
+import './../../../app/components/css/ad_list_page.css'
 
 const AnnouncementPage = () => {
   return (
