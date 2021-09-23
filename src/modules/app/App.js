@@ -38,6 +38,12 @@ import AddEmployeePage from './../employment/pages/AddEmployeePage/AddEmployeePa
 import AddVacancyPage from './../employment/pages/AddVacancyPage/AddVacancyPage'
 
 import OrganisationListPage from './../organisation/pages/OrganisationListPage/OrganisationListPage'
+import RealEstateListPage from './../realEstate/pages/RealEstateListPage/RealEstateListPage'
+import AdvertisementListPage from './../advertisement/pages/AdvertisementListPage/AdvertisementListPage'
+import AdvertisementPage from './../advertisement/pages/AdvertisementPage/AdvertisementPage'
+import AdvertisementAddPage from './../advertisement/pages/AdvertisementAddPage/AdvertisementAddPage'
+import GoodsListPage from './../goods/pages/GoodsListPage/GoodsListPage'
+import GoodsPage from './../goods/pages/GoodsPage/GoodsPage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -48,6 +54,12 @@ const App = (props) => {
 
       <Route path='/test' component={TestComp} />
 
+      <Route path='/goods_item' component={GoodsPage} />
+      <Route path='/goods' component={GoodsListPage} />
+      <Route path='/advertisement_add' component={AdvertisementAddPage} />
+      <Route path='/advertisement' component={AdvertisementPage} />
+      <Route path='/advertisements' component={AdvertisementListPage} />
+      <Route path='/realestates' component={RealEstateListPage} />
       <Route path='/organisations' component={OrganisationListPage} />
 
       <Route path='/vacancy_add' component={AddVacancyPage} />

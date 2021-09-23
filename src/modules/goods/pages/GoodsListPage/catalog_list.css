@@ -1,0 +1,161 @@
+/* c_catalog_list */
+
+.c_catalog_list {
+    margin: 18px 0;
+    padding: 0;
+}
+
+.c_catalog_list .list_item {
+    margin: 0 0 8px;
+    padding: 0 0 8px;
+    background: url(./../../../app/AppPageLayout/img/dot-separator-3c3c3c.gif) 0 100% repeat-x;
+}
+
+.c_catalog_list .list_item:last-child {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.c_catalog_list .image_container {
+    float: left;
+    text-align: center;
+    width: 150px;
+    min-height: 100px;
+    margin: 0 15px 0 0;
+    overflow: hidden;
+    border: 1px solid #EAEAEA;
+}
+
+.c_catalog_list .image_container img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.c_catalog_list .title {
+    color: #009ACF;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 16px;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.c_catalog_list .inner_content {
+    overflow: hidden;
+}
+
+.c_catalog_list .c_button_large {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+/* Redefine 'c_add_to_oder_button' styles */
+
+.c_catalog_list .c_add_to_oder_button {
+    margin: 0;
+}
+
+.c_catalog_list .c_button_large,
+.c_catalog_list .c_add_to_oder_button .button_element {
+    font-size: 12px;
+}
+
+.c_catalog_list .c_add_to_oder_button .button_element {
+    font-weight: bold;
+    line-height: 25px;
+    height: 25px;
+    width: auto;
+    padding: 0 20px;
+}
+
+.c_catalog_list .c_add_to_oder_button .list-hover-wrapper {
+  bottom: 25px;
+}
+
+
+
+/* Redefine 'c_add_to_list_button' styles */
+
+.c_catalog_list .c_add_to_list_button .list-hover-wrapper {
+  right: auto;
+  left: 50%;
+  margin-left: -70px;
+}
+
+
+
+
+.c_catalog_list .text_line {
+    font-size: 14px;
+    margin: 0px 0 10px;
+}
+
+.c_catalog_list .rate,
+.c_catalog_list .price,
+.c_catalog_list .label {
+    font-weight: bold;
+}
+
+.c_catalog_list .price {
+    margin: 0 7px;
+    padding: 3px 20px;
+    background-color: #ffda5f;
+}
+
+.c_catalog_list .rate {
+    color: #009ACF;
+    font-size: 18px;
+    margin: 0 10px 0 3px;
+    vertical-align: middle;
+    /*position: relative;
+    bottom: -2px;*/
+}
+
+.c_catalog_list .reviews {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.c_catalog_list .avalible {
+    color: #1AB301;
+}
+
+.c_catalog_list .noavalible {
+    color: #b90000;
+}
+
+
+
+.c_catalog_list .company_block {
+    float: right;
+    width: 190px;
+    margin: 0px 0 0 15px;
+    padding: 2px 0 0;
+}
+
+.c_catalog_list .company_block .phone {
+    color: #3c3c3c;
+    margin: 7px 0 0;
+    padding-left: 14px;
+    background: url(./../../../app/AppPageLayout/img/icon-phone.png) 0 50% no-repeat;
+}
+
+.c_catalog_list .company_block .links {
+    margin: 3px 0;
+}
+
+.c_catalog_list .company_block .links a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.c_catalog_list .company_block .links a:hover {
+    text-decoration: underline;
+}

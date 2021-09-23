@@ -321,7 +321,7 @@ select.c_form_input {
     width: 14px;
     height: 14px;
     margin-left: 10px;
-    /* background: url("../img/view-sprite.png") 0 0 no-repeat; */
+    background: url("../img/view-sprite.png") 0 0 no-repeat;
 
     *zoom: 1;
     *display: inline;

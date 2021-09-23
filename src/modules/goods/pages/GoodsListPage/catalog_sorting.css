@@ -1,0 +1,32 @@
+/* c_catalog_sorting */
+
+.c_catalog_sorting {
+    float: right;
+    margin: 0px 0 0px;
+    padding: 7px 9px;
+    border: 0 none;
+}
+
+
+.c_catalog_sorting a {
+	margin: 0 4px;
+}
+
+.c_catalog_sorting .asc,
+.c_catalog_sorting .desc {
+	padding-right: 10px;
+	background: 100% 0% no-repeat;
+}
+
+.c_catalog_sorting .asc {
+	background-image: url(./../../../app/AppPageLayout/img/sort-asc.png);
+}
+
+.c_catalog_sorting .desc {
+	background-image: url(./../../../app/AppPageLayout/img/sort-desc.png);
+}
+
+.c_catalog_sorting .active {
+	font-weight: bold;
+	text-decoration: none;
+}

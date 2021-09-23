@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom'
 import PageLayout from './../../PageLayout/PageLayout'
 import Pagination from './../../../app/components/Pagination/Pagination'
 
+import './../../../app/components/css/ad_list_page.css'
+
 const OrganisationListPage = () => {
   return (
     <PageLayout>
@@ -144,7 +146,7 @@ const OrganisationListPage = () => {
                     <div className="icons_container">
                     </div>
                 </div>
-                
+
                 <div className="title"><Link to="/">Ижора-Строй. Материалы и оборудование с доставкой по России</Link></div>
                 <div className="contacts_section">
                     <div className="column_third">
