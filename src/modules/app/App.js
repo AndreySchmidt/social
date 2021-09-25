@@ -29,6 +29,7 @@ import CompanyPage from './../personalAccount/pages/CompanyPage/CompanyPage'
 import AnnouncementPage from './../personalAccount/pages/AnnouncementPage/AnnouncementPage'
 
 import TestComp from './../personalAccount/pages/TestComp/TestComp'
+import GoodsPage from './../goods/pages/GoodsPage/GoodsPage'
 
 import VacancyListPage from './../employment/pages/VacancyListPage/VacancyListPage'
 import EmployeeListPage from './../employment/pages/EmployeeListPage/EmployeeListPage'
@@ -43,7 +44,8 @@ import AdvertisementListPage from './../advertisement/pages/AdvertisementListPag
 import AdvertisementPage from './../advertisement/pages/AdvertisementPage/AdvertisementPage'
 import AdvertisementAddPage from './../advertisement/pages/AdvertisementAddPage/AdvertisementAddPage'
 import GoodsListPage from './../goods/pages/GoodsListPage/GoodsListPage'
-import GoodsPage from './../goods/pages/GoodsPage/GoodsPage'
+import ReviewListPage from './pages/ReviewListPage'
+import PeopleListPage from './pages/PeopleListPage'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -53,8 +55,10 @@ const App = (props) => {
       <Route exact path='/' component={HomePage} />
 
       <Route path='/test' component={TestComp} />
-
       <Route path='/goods_item' component={GoodsPage} />
+
+      <Route path='/people' component={PeopleListPage} />
+      <Route path='/review' component={ReviewListPage} />
       <Route path='/goods' component={GoodsListPage} />
       <Route path='/advertisement_add' component={AdvertisementAddPage} />
       <Route path='/advertisement' component={AdvertisementPage} />

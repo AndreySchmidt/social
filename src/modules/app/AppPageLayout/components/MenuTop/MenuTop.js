@@ -7,10 +7,8 @@ const MenuTop = () => {
       <ul>
         <li><Link to="/organisations">Организации</Link></li>
         <li><Link to="/realestates">Недвижимость</Link></li>
-        <li><Link to="/vacancy_list">Работа</Link></li>
         <li><Link to="/goods">Товары и услуги</Link></li>
-        <li><Link to="/advertisements">Доска объявлений</Link></li>
-        <li><Link to="/events">Мероприятия</Link></li>
+        <li><Link to="/discount">Скидки и акции</Link></li>
       </ul>
     </div>
   )
