@@ -15,7 +15,7 @@ const MenuTopStick = () => {
           <ul>
             <li><Link to="/people">Люди</Link></li>
             <li><Link to="/blogs">Блоги</Link></li>
-            <li><Link to="/consultation">Консультации</Link></li>
+            <li><Link to="/consultations">Консультации</Link></li>
           </ul>
         </li>
       </ul>

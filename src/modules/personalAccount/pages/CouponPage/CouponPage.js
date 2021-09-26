@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 // import picava100x100 from './../../../app/AppPageLayout/images/pic-ava-100x100.jpg'
 
 import './CouponPage.css'
-import './../../components/css/c_print_this.css'
+import './../../../app/components/css/print_this.css'
 import './../../components/css/lk_user_data.css'
 
 import PageLayout from './../../PageLayout/PageLayout'

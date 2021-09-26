@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 import socialsamplesmall from './../../../app/AppPageLayout/images/social-sample-small.png'
 
 import './CouponItemPage.css'
-import './../../components/css/c_share_this.css'
 import './../../components/css/c_lk_inner_breadcrumbs.css'
-import './../../components/css/c_print_this.css'
+import './../../../app/components/css/print_this.css'
+import './../../../app/components/css/share_this.css'
 import './../../components/css/lk_user_data.css'
 
 import PageLayout from './../../PageLayout/PageLayout'

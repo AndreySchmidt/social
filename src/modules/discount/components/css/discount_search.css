@@ -1,0 +1,244 @@
+/* c_discount_search */
+
+.c_discount_search {
+    margin: 0 0 24px;
+    padding: 7px 9px 9px;
+    position: relative;
+    border: 1px solid #EAEAEA;
+    background: #fafafa;
+}
+
+
+
+.c_discount_search .search_form {
+    position: relative;
+    border: 1px solid #b8b8b8;
+}
+
+.c_discount_search .search_form .search_field {
+    margin-right: 120px;
+}
+
+.c_discount_search .search_form .search_query {
+    width: 100%;
+    height: 13px;
+    line-height: 13px;
+    padding: 4px 4px 4px 5px;
+    border: 0 none;
+}
+
+.c_discount_search .search_form .search_submit {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2px 30px 2px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E9DAA4 #F5DE8D #ECC431 #E9CD65;
+    background: #FFD32D url("./../../../app/AppPageLayout/img/button-bg.jpg") 0 0 repeat-x;
+}
+
+.c_discount_search .search_form .search_reset {
+    text-indent: -100em;
+    width: 17px;
+    height: 17px;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    border: 0 none;
+    background: url(./../../../app/AppPageLayout/img/search_clear.png) 0 0 no-repeat;
+}
+
+
+
+
+
+.c_discount_search .search_options {
+    margin: 15px 0 0;
+}
+
+.c_discount_search.collapsed .search_options {
+    display: none;
+}
+
+
+.c_discount_search .search_options .element-container {
+    clear: left;
+    padding-left: 87px;
+    margin: 0 0 3px;
+}
+
+.c_discount_search .search_options .element-container label {
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    width: 86px;
+    margin-left: -90px;
+    padding: 0px 0 0;
+}
+
+
+.c_discount_search .search_options .element-container .type-text {
+    line-height: 14px;
+    height: 14px;
+    width: 295px; /* 305px */
+    padding: 5px 5px 2px;
+    border: 1px solid #DDDDDD;
+}
+
+.c_discount_search .search_options .element-container textarea.type-text {
+    line-height: 14px;
+    height: 14px;
+    width: 300px; /* 305px */
+    height: 91px;
+    max-width: 330px;
+    padding: 5px 0 0 5px;
+    margin: 0 0 0px;
+    border: 1px solid #DDDDDD;
+}
+
+.c_discount_search .search_options .element-container select {
+    /*display: block;*/
+    height: 21px;
+    line-height: 21px;
+    width: 307px; /* 305px */
+    vertical-align: top;
+    outline: 0 none;
+    border: 1px solid #D1D1D1;
+}
+
+.c_discount_search .search_options .element-container select option {
+    padding: 5px 5px 2px;
+    vertical-align: middle;
+}
+
+
+.c_discount_search .search_options .element-container .width-half {
+    width: 136px;
+    margin-right: 8px;
+}
+
+.c_discount_search .search_options .element-container .width-third {
+    width: 84px;
+    margin-right: 6px;
+}
+
+.c_discount_search .search_options .element-container select.width-half {
+    width: 148px;
+}
+
+.c_discount_search .search_options .element-container select.width-third {
+    width: 96px;
+}
+
+.c_discount_search .search_options .element-container .select-init {
+    /*float: left;*/
+    line-height: 14px;
+    padding: 4px 0px 2px;
+}
+
+.c_discount_search .search_options .element-container .select-result {
+    /*clear: left;*/
+    margin: 0 0 0px;
+}
+
+.c_discount_search .search_options .element-container label.normal {
+    float: none;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+.c_discount_search .search_options .checkbox-container {
+    margin-top: 6px;
+}
+
+
+
+.c_discount_search .type-text::-webkit-input-placeholder {
+    font-style: italic;
+}
+.c_discount_search .type-text:-moz-placeholder {
+    font-style: italic;
+}
+.c_discount_search .type-text::-moz-placeholder {
+    font-style: italic;
+}
+.c_discount_search .type-text:-ms-input-placeholder {
+    font-style: italic;
+}
+
+
+.c_discount_search .search_options .button-container {
+    margin: 14px 0 4px;
+}
+
+.c_discount_search .search_options .search_submit {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 35px 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E9DAA4 #F5DE8D #ECC431 #E9CD65;
+    background: url("./../../../app/AppPageLayout/img/button-bg.jpg") repeat-x scroll 0 0 #FFD32D;
+}
+
+.c_discount_search .form_view {
+    text-align: center;
+    width: 275px;
+    margin-left: -120px;
+    left: 50%;
+    bottom: -20px;
+    position: absolute;
+}
+
+.c_discount_search .form_view a {
+    display: block;
+    color: #3C3C3C;
+    text-decoration: none;
+    padding: 2px 0;
+    border-top: 1px solid #e7c54a;
+    background-color: #FFD750;
+    border-radius: 0 0 6px 6px;
+}
+
+.c_discount_search .form_view a:hover {
+    text-decoration: underline;
+}
+
+.c_discount_search .form_view a i {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin: 0 11px;
+    vertical-align: middle;
+    background: url("./../../../app/AppPageLayout/img/arrow-double-up.png") 0 0 no-repeat;
+}
+
+
+.c_discount_search a.show-full,
+.c_discount_search.collapsed a.hide-full {
+    display: none;
+}
+
+.c_discount_search a.hide-full,
+.c_discount_search.collapsed a.show-full {
+    display: block;
+}
+
+.c_discount_search.collapsed .form_view a i {
+    background: url("./../../../app/AppPageLayout/img/arrow-double-down.png") 0 0 no-repeat;
+}
