@@ -8,21 +8,14 @@ import Pagination from './../../../app/components/Pagination/Pagination'
 // import QuickSearch from './../../components/QuickSearch/QuickSearch'// <QuickSearch placeholder="Поиск по видеофайлам" />
 
 import './VideoPage.css'
-import './../../../app/components/css/blog_search.css'
+import Search from './../../../app/components/Search/Search'
 import './../../../app/components/css/breadcrumbs_bar.css'
 import './../../components/css/lk_user_data.css'
 
 const VideoPage = () => {
   return (
     <PageLayout>
-      <div className="c_blog_search">
-        <form action="#" method="GET">
-          <div className="search_form">
-            <input className="search_query" type="text" placeholder="Поиск по видеофайлам" />
-            <input className="search_submit" type="submit" value="Найти" />
-          </div>
-        </form>
-      </div>
+    <Search />
 
       <div className="c_breadcrumbs_bar">
         <Link to="#" className="back">Назад</Link>

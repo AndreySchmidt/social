@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 import PageLayout from './../../PageLayout/PageLayout'
 
-import './../../../app/components/css/blog_search.css'
+import './../../../app/components/css/search.css'
 import './../../../app/components/css/breadcrumbs_bar.css'
 import './../../../app/components/css/ad_info_layout.css'
 

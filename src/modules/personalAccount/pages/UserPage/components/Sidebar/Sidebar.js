@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuBlock from './../MenuBlock/MenuBlock'
-import AdsList from './../AdsList/AdsList'
+import AdsList from './../../../../../app/components/AdsList/AdsList'
 
 const Sidebar = () => {
   return (

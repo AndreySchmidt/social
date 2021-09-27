@@ -5,21 +5,14 @@ import PageLayout from './../../PageLayout/PageLayout'
 import Pagination from './../../../app/components/Pagination/Pagination'
 
 import './../../../app/components/css/ad_list_page.css'
-import './../../../app/components/css/blog_search.css'
+import Search from './../../../app/components/Search/Search'
 import './consultations.css'
 import './consultation_filter.css'
 
 const ConsultationListPage = () => {
   return (
     <PageLayout>
-      <div className="c_blog_search">
-        <form method="GET" action="#">
-          <div className="search_form">
-            <input type="text" placeholder="Быстрый поиск" className="search_query" />
-            <input type="submit" value="Найти" className="search_submit" />
-          </div>
-        </form>
-      </div>
+    <Search />
       <div className="c_consultation_filter">
         <div className="c_type_select">
           <Link className="active" to="#">Все вопросы</Link>

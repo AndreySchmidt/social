@@ -5,21 +5,14 @@ import PageLayout from './../../PageLayout/PageLayout'
 import Pagination from './../../../app/components/Pagination/Pagination'
 
 import './../../../app/components/css/ad_list_page.css'
-import './../../../app/components/css/blog_search.css'
+import Search from './../../../app/components/Search/Search'
 import './blog_list.css'
 
 const BlogListPage = () => {
   return (
     <PageLayout>
       <div className="c_blog_list">
-        <div className="c_blog_search">
-          <form action="#" method="GET">
-            <div className="search_form">
-              <input className="search_query" type="text" placeholder="Поиск по блогам" />
-              <input className="search_submit" type="submit" value="Найти" />
-            </div>
-          </form>
-        </div>
+        <Search />
         <div className="blog_filter c_type_select">
           <Link to="#" className="active">Все записи</Link>
           <Link to="#">Популярные</Link>

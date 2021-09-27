@@ -63,32 +63,5 @@
     right: 5px;
     top: 3px;
     border: 0 none;
-    background: url(../../../app/AppPageLayout/img/search_clear.png) 0 0 no-repeat;
+    background: url("../../../app/AppPageLayout/img/search_clear.png") 0 0 no-repeat;
 }
-
-/*
-.c_blog_search:hover .search_results { display: block;}
-
-.c_blog_search .search_results {
-    display: none;
-    padding: 0 0 0px;
-    position: absolute;
-    top: 21px;
-    left: -1px;
-    right: 110px;
-    border: 1px solid #b8b8b8;
-    background: #FFF
-}
-
-.c_blog_search .search_result_line {
-    cursor: pointer;
-    padding: 0 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.c_blog_search .search_result_line:hover {
-    background: #F2F2F2;
-}
-*/

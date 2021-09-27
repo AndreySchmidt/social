@@ -53,6 +53,10 @@ import BlogItemPage from './../blog/pages/BlogItemPage/BlogItemPage'
 import ConsultationListPage from './../consultation/pages/ConsultationListPage/ConsultationListPage'
 import ConsultationItemPage from './../consultation/pages/ConsultationItemPage/ConsultationItemPage'
 
+import NewsItemPage from './../news/pages/NewsItemPage/NewsItemPage'
+import NewsListPage from './../news/pages/NewsListPage/NewsListPage'
+import NewsMainPage from './../news/pages/NewsMainPage/NewsMainPage'
+
 import { Switch, Route } from 'react-router-dom'
 
 const App = (props) => {
@@ -63,6 +67,9 @@ const App = (props) => {
       <Route path='/test' component={TestComp} />
       <Route path='/goods_item' component={GoodsPage} />
 
+      <Route path='/news' component={NewsMainPage} />
+      <Route path='/news_list' component={NewsListPage} />
+      <Route path='/news_item' component={NewsItemPage} />
       <Route path='/consultation_item' component={ConsultationItemPage} />
       <Route path='/consultations' component={ConsultationListPage} />
       <Route path='/blog_item' component={BlogItemPage} />

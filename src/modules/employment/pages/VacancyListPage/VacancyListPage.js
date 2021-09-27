@@ -6,7 +6,7 @@ import iconemp from './../../../app/AppPageLayout/img/icon-emp.png'
 import iconadd from './../../../app/AppPageLayout/img/icon-add.png'
 
 import './../../../app/components/css/ad_list_page.css'
-import './../../../app/components/css/blog_search.css'
+import './../../../app/components/css/search.css'
 import './../../../app/components/css/list_extended_view.css'
 
 import PageLayout from "./../../PageLayout/PageLayout"

@@ -49,8 +49,8 @@ const ConsultationItemPage = () => {
             </div>
             <form action="#" className="c_consultation_answer_form">
             <div>
-                <textarea className="field"></textarea>
-                <input className="c_button_large submit" type="submit" value="Ответить" />
+              <textarea className="field"></textarea>
+              <input className="c_button_large submit" type="submit" value="Ответить" />
             </div>
             </form>
           </div>

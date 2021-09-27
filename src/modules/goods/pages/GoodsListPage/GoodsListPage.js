@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import PageLayout from './../../PageLayout/PageLayout'
 import Pagination from './../../../app/components/Pagination/Pagination'
 
-import './../../../app/components/css/blog_search.css'
+import Search from './../../../app/components/Search/Search'
 import './../../../app/components/css/ad_list_page.css'
 import './catalog_list.css'
 import './catalog_sorting.css'
@@ -12,14 +12,7 @@ import './catalog_sorting.css'
 const GoodsListPage = () => {
   return (
     <PageLayout>
-      <div className="c_blog_search">
-        <form action="#" method="GET">
-          <div className="search_form">
-            <input className="search_query" type="text" placeholder="Быстрый поиск" />
-            <input className="search_submit" type="submit" value="Найти" />
-          </div>
-        </form>
-      </div>
+    <Search />
 
       <div className="c_catalog_sorting">
           Сортировать по:
