@@ -1,0 +1,86 @@
+/* c_event_fotootchet */
+
+.c_event_fotootchet {
+	clear: right;
+	border: 1px solid #E8E8E8;
+}
+
+.c_event_fotootchet .main_content_column {
+	float: right;
+	width: 476px;
+	padding: 5px 8px 0 6px;
+	/*margin-left: 218px;*/
+}
+
+.c_event_fotootchet .title {
+	color: #009ACF;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 12px;
+	padding: 0;
+}
+
+
+.c_event_fotootchet .controls {
+    /*clear: left;*/
+    float: right;
+    padding: 0px 7px;
+    margin: 1px 0 0;
+}
+
+.c_event_fotootchet .controls .add,
+.c_event_fotootchet .controls .edit,
+.c_event_fotootchet .controls .remove,
+.c_event_fotootchet .controls > a {
+    color: #303030;
+    margin-right: 17px;
+    padding-left: 17px;
+    background-position: 0 80%;
+    background-repeat: no-repeat;
+}
+
+.c_event_fotootchet .controls .add {
+	padding-left: 0;
+    /*background-image: url("./../img/icon-add.gif");*/
+}
+
+.c_event_fotootchet .controls .edit {
+    background-image: url("./../../../app/AppPageLayout/img/icon-edit.gif");
+}
+
+.c_event_fotootchet .controls .remove {
+    background-image: url("./../../../app/AppPageLayout/img/icon-remove.gif");
+}
+
+.c_event_fotootchet .controls .last {
+    margin-right: 0;
+}
+
+
+
+.c_event_fotootchet .gallery {
+	margin: 0 -10px 0 -5px;
+}
+
+.c_event_fotootchet .gallery .photo_row {
+  display: inline-block;
+  padding: 9px 9px 9px 10px;
+  /*width: 130px;
+  height: 87px;*/
+  width: 140px;
+  height: 105px;
+  vertical-align: middle;
+}
+
+.c_event_fotootchet .gallery .photo_row a {
+  display: block;
+  text-align: center;
+  width: 140px;
+  max-height: 105px;
+  overflow: hidden;
+}
+
+.c_event_fotootchet .gallery .photo_row img {
+  vertical-align: top;
+  max-width: 100%;
+}

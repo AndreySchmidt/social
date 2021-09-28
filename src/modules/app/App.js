@@ -57,6 +57,14 @@ import NewsItemPage from './../news/pages/NewsItemPage/NewsItemPage'
 import NewsListPage from './../news/pages/NewsListPage/NewsListPage'
 import NewsMainPage from './../news/pages/NewsMainPage/NewsMainPage'
 
+import EventAddPage from './../event/pages/EventAddPage/EventAddPage'
+import EventListPage from './../event/pages/EventListPage/EventListPage'
+import EventItemPage from './../event/pages/EventItemPage/EventItemPage'
+import EventAddPhotoPage from './../event/pages/EventAddPhotoPage/EventAddPhotoPage'
+import EventAddVideoPage from './../event/pages/EventAddVideoPage/EventAddVideoPage'
+import EventVideoPage from './../event/pages/EventVideoPage/EventVideoPage'
+import EventPhotoPage from './../event/pages/EventPhotoPage/EventPhotoPage'
+
 import { Switch, Route } from 'react-router-dom'
 
 const App = (props) => {
@@ -67,6 +75,13 @@ const App = (props) => {
       <Route path='/test' component={TestComp} />
       <Route path='/goods_item' component={GoodsPage} />
 
+      <Route path='/event_photo' component={EventPhotoPage} />
+      <Route path='/event_video' component={EventVideoPage} />
+      <Route path='/event_add_video' component={EventAddVideoPage} />
+      <Route path='/event_add_photo' component={EventAddPhotoPage} />
+      <Route path='/event_item' component={EventItemPage} />
+      <Route path='/event' component={EventListPage} />
+      <Route path='/event_add' component={EventAddPage} />
       <Route path='/news' component={NewsMainPage} />
       <Route path='/news_list' component={NewsListPage} />
       <Route path='/news_item' component={NewsItemPage} />

@@ -6,7 +6,7 @@ const MenuTopStick = () => {
     <div className="c_menu_top_stick clearfix">
       <ul className="menu_left">
         <li><Link to="/advertisements">Доска объявлений</Link></li>
-        <li><Link to="/events">Мероприятия</Link></li>
+        <li><Link to="/event">Мероприятия</Link></li>
         <li><Link to="/news">Новости</Link></li>
         <li><Link to="/review">Отзывы</Link></li>
         <li><Link to="/vacancy_list">Работа</Link></li>

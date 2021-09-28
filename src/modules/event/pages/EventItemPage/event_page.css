@@ -1,0 +1,47 @@
+/* c_event_page */
+
+.c_event_page {
+	clear: right;
+	border: 1px solid #E8E8E8;
+}
+
+.c_event_page .main_content_column {
+	float: right;
+	width: 476px;
+	padding: 5px 8px 0 6px;
+	/*margin-left: 218px;*/
+}
+
+.c_event_page .title {
+	color: #009ACF;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 10px;
+	padding: 0 0 7px;
+	background: url("./../../../app/AppPageLayout/img/dot-gray.gif") 0 100% repeat-x;
+}
+
+.c_event_page .event_info {
+	color: #535353;
+	padding: 0 0 8px;
+	background: url("./../../../app/AppPageLayout/img/dot-gray.gif") 0 100% repeat-x;
+}
+
+.c_event_page .event_info .field {
+	clear: left;
+	margin: 0 0 9px;
+	padding-left: 115px;
+}
+
+.c_event_page .event_info .field .label {
+  float: left;
+  color: #009ACF;
+  font-weight: normal;
+  margin-left: -115px;
+  padding: 0;
+  width: 110px;
+}
+
+.c_event_page .event_info .text {
+	color: #535353;
+}

@@ -1,0 +1,160 @@
+/* c_event_create */
+
+.c_breadcrumbs_bar { /* redefine */
+    margin: 0 0 6px; 
+}
+
+.c_event_create {
+    margin: 0 0 12px;
+    /*padding: 4px 12px 4px 10px;*/
+}
+
+.c_event_create .header {
+    color: #009ACF;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 6px 10px;
+}
+
+.c_event_create .fieldset {
+    margin: 0;
+    padding: 25px 68px 14px 10px;
+    border: 1px solid #EAEAEA;
+}
+
+.c_event_create form .element-container {
+    clear: left;
+    padding-left: 255px;
+    margin: 0 0 10px;
+}
+
+.c_event_create .element-container label {
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    width: 249px;
+    margin-left: -255px;
+    padding: 3px 0 0;
+}
+
+
+
+.c_event_create .element-container .type-text {
+    line-height: 14px;
+    height: 14px;
+    width: 295px; /* 305px */
+    padding: 5px 5px 2px;
+    border: 1px solid #b8b8b8;
+}
+
+.c_event_create .element-container textarea.type-text {
+    line-height: 14px;
+    height: 14px;
+    width: 300px; /* 305px */
+    height: 137px;
+    max-width: 300px;
+    padding: 5px 0 0 5px;
+    margin: 0 0 0px;
+    border: 1px solid #b8b8b8;
+}
+
+.c_event_create .element-container select {
+    /*display: block;*/
+    height: 23px;
+    line-height: 23px;
+    width: 307px; /* 305px */
+    padding: 3px 2px 3px 3px;
+    vertical-align: top;
+    outline: 0 none;
+    border: 1px solid #b8b8b8;
+}
+
+.c_event_create .element-container select option {
+    padding: 5px 5px 2px;
+    vertical-align: middle;
+}
+
+
+.c_event_create .element-container .width-half {
+    width: 136px;
+    margin-right: 8px; 
+}
+
+.c_event_create .element-container .width-third {
+    width: 84px;
+    margin-right: 6px; 
+}
+
+.c_event_create .element-container select.width-half {
+    width: 148px;
+}
+
+.c_event_create .element-container select.width-third {
+    width: 96px;
+}
+
+.c_event_create .element-container .select-init {
+    float: left;
+    line-height: 14px;
+    padding: 4px 0px 2px;
+}
+
+.c_event_create .element-container .select-result {
+    clear: left;
+    margin: 0 0 10px;
+}
+
+
+
+.c_event_create .element-container .result-preview {
+    margin: 10px 0;
+}
+
+.c_event_create .element-container label.normal {
+    float: none;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+.c_event_create .element-container label.normal input {
+    margin: 0 0 6px;
+}
+
+
+
+.c_event_create .element-container .map {
+    width: 406px;
+    height: 276px;
+    overflow: hidden;
+    margin: 0 0 39px;
+}
+
+.c_event_create .element-container .map-note {
+    color: #cb0000;
+    padding: 0;
+    margin: 5px 0px;
+}
+
+.c_event_create .element-container .c_button {
+    padding: 2px 10px;
+}
+
+
+.c_event_create .button-container {
+    clear: left;
+    padding-left: 255px;
+    margin: 0;
+}
+
+
+.c_event_create .type-text::-webkit-input-placeholder,
+.c_event_create .type-text:-moz-placeholder,
+.c_event_create .type-text::-moz-placeholder,
+.c_event_create .type-text:-ms-input-placeholder {
+    color: #757575;
+    font-style: normal;
+}

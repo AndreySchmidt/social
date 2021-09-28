@@ -1,0 +1,154 @@
+/* c_event_main_dock */
+
+.c_event_main_dock {
+    float: left;
+    width: 200px;
+    margin: 0;
+    padding: 6px 6px 16px;
+    border-right: 1px solid #E8E8E8;
+    background-color: #fff;
+}
+
+.c_event_main_dock .event_image_container {
+	overflow: hidden;
+    margin: 0 0 8px;
+}
+
+.c_event_main_dock .event_image_container img {
+	max-width: 200px;
+}
+
+
+.c_event_main_dock .invite_actions {
+	text-align: center;
+	padding: 18px 20px 9px;
+	margin: 6px 0;
+    border: 1px solid #E8E8E8;
+    background: #fafafa;
+}
+
+.c_event_main_dock .invite_actions .c_button_large {
+	font-weight: bold;
+	width: 135px;
+	padding: 4px 5px;
+	margin: 0 0 9px;
+}
+
+
+.c_event_main_dock .block-links {
+	text-align: center;
+	line-height: 25px;
+	height: 25px;
+	margin: 6px 0 10px;
+    border: 1px solid #E8E8E8;
+}
+
+.c_event_main_dock .block-links a {
+	color: #000;
+}
+
+.c_event_main_dock .block-links img {
+	vertical-align: middle;
+	margin: 0 4px 0 0;
+}
+
+
+.c_event_main_dock .c_add_to_list_button {
+	display: block;
+	text-align: center;
+	line-height: 25px;
+	height: 25px;
+	margin: 6px 0 10px;
+    border: 1px solid #E8E8E8;
+}
+
+.c_event_main_dock .c_add_to_list_button .button_element {
+	display: inline;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+	padding: 0;
+	border: 0 none;
+	background: none;
+}
+
+.c_event_main_dock .c_add_to_list_button .button_element span {
+	text-decoration: underline;
+}
+
+.c_event_main_dock .c_add_to_list_button .button_element:hover span {
+	text-decoration: none;
+}
+
+.c_event_main_dock .c_add_to_list_button .list-hover-wrapper {
+	right: 30px;
+}
+
+
+.c_event_main_dock .freinds-link {
+	margin: -10px 13px 6px;
+}
+
+.c_event_main_dock .freinds-link a {
+	font-size: 11px;
+}
+
+.c_event_main_dock .people-list {
+    margin: 0 -2px 0 12px;
+}
+
+.c_event_main_dock .people-list .photo_row {
+  display: inline-block;
+  padding: 3px 1px 3px;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.c_event_main_dock .people-list .photo_row a {
+  display: block;
+  text-align: center;
+  width: 50px;
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.c_event_main_dock .people-list .photo_row img {
+  vertical-align: top;
+  max-width: 50px;
+}
+
+
+.c_event_main_dock .section_title {
+	margin: 15px -6px 12px;
+	padding: 4px 13px 4px 16px;
+	background-color: #F1F2F2;
+}
+
+.c_event_main_dock .section_title .right_link {
+  float: right;
+  font-size: 11px;
+  text-decoration: none;
+  margin: 2px 0 0;
+}
+
+.c_event_main_dock .section_title .right_link:hover {
+	text-decoration: underline;
+}
+
+
+.c_event_main_dock .preview-list .list_item {
+	margin-bottom: 10px;
+}
+
+.c_event_main_dock .preview-list .image_container {
+  text-align: center;
+  overflow: hidden;
+}
+
+.c_event_main_dock .preview-list .image_container img {
+	max-width: 100%;
+	vertical-align: top;
+}

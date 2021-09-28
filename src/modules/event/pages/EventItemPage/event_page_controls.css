@@ -1,0 +1,35 @@
+/* c_event_page_controls */
+
+.c_event_page_controls {
+    float: right;
+    padding: 4px 24px;
+    margin: 0 0 10px;
+    border: 1px solid #ffda5e;
+}
+
+.c_event_page_controls .add,
+.c_event_page_controls .edit,
+.c_event_page_controls .remove,
+.c_event_page_controls > a {
+    color: #303030;
+    /*margin-right: 17px;*/
+    padding-left: 17px;
+    background-position: 0 80%;
+    background-repeat: no-repeat;
+}
+
+.c_event_page_controls .add {
+    background-image: url("./../../../app/AppPageLayout/img/icon-add.gif");
+}
+
+.c_event_page_controls .edit {
+    background-image: url("./../../../app/AppPageLayout/img/icon-edit.gif");
+}
+
+.c_event_page_controls .remove {
+    background-image: url("./../../../app/AppPageLayout/img/icon-remove.gif");
+}
+
+.c_event_page_controls .last {
+    margin-right: 0;
+}
