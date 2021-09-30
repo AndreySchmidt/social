@@ -548,6 +548,114 @@ a:active {
     background-color: #f1f2f2;
 }
 
+
+/*old*/
+/*c_menu_block*/
+.c_menu_block > ul > li {
+    position: relative;
+}
+
+.ie7 .c_menu_block > ul > li {
+    z-index: 99;
+}
+
+.c_menu_block > ul > li > a {
+    display: block;
+    padding: 5px 15px;
+    font-size: 12px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.c_menu_block > ul > li > a.active,
+.c_menu_block > ul > li > a:hover {
+    background-color: #f1f2f2;
+}
+
+.c_menu_block .menu-dropdown {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left: 98%;
+    top: -4px;
+    width: 440px;
+    padding: 3px 3px 6px;
+    background-color: #F1F2F2;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.41);
+}
+
+.c_menu_block > ul > li:hover .menu-dropdown,
+.c_menu_block  .menu-dropdown:hover {
+    display: block;
+}
+
+.c_menu_block  > ul > li .menu-dropdown.display_none {
+    display: none;
+}
+
+.c_menu_block  > ul > li .menu-dropdown.display_block {
+    display: block;
+}
+
+.c_menu_block .menu-dropdown-inner {
+    overflow: hidden;
+    padding: 9px 0;
+    background-color: #ffffff;
+    border: 1px solid #E1E2E2;
+}
+
+.c_menu_block .left-menu,
+.c_menu_block .right-menu {
+    float: left;
+    margin: 0;
+    padding: 17px 0;
+    list-style: none;
+    width: 49%;
+}
+
+.c_menu_block .right-menu {
+    border-left: 1px dotted #565656;
+}
+
+.c_menu_block .menu-dropdown-inner li {
+    padding: 3px 24px 3px 21px;
+}
+
+.c_menu_block .menu-dropdown-inner a {
+    text-decoration: none;
+}
+
+.c_menu_block .menu-dropdown-inner a:hover {
+    text-decoration: underline;
+}
+
+
+.c_menu_block .full_data {
+    padding: 3px 15px;
+    text-align: center;
+}
+
+.c_menu_block .full_data a {
+    display: block;
+    padding: 3px 0;
+    color: #3c3c3c;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.c_menu_block .full_data a:hover {
+    text-decoration: underline;
+}
+
+.c_menu_block .full_data a > i {
+    display: inline-block;
+    margin: 0 5px;
+    width: 9px;
+    height: 9px;
+    vertical-align: middle;
+    background: url("../img/show-more-arrow.png") 0 0 no-repeat;
+}
 /*END c_menu_block*/
 
 /*c_ads_list*/
